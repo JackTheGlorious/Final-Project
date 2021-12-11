@@ -1,0 +1,179 @@
+/*<!--Glorious Peripherals Site by Jonathan Golz-->
+<!--created on 12/4/21-->
+<!--For the ITEC-350/236 class at SIUC-->
+<!--I do not own any of the images or content. They are just used for demonstration purposes-->
+<!--last updated 12/10/21-->*/
+
+/*css for prnting the index page of the website*/
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: white;
+}
+/* the styles for the elements */
+body {
+	font-family: "Times New Roman", Times, serif;
+	background-color: white;
+    border: 2px solid black;
+    font-size: 100%;
+}
+
+script {
+	display: none;
+}
+
+slicknav {
+	display: none;
+}
+
+img {
+	display: none;
+}
+
+div {
+	display: none;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+h1, h2, h3 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	font-family: "Times New Roman", Times, serif;
+	background-color: white;
+    border: 2px solid black;
+    font-size: 100%;
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+
+/* the styles for the header */
+header {
+	border-bottom: 2px solid black;
+	background-image: none;
+}
+header h2 {
+	color: black;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+}
+header img {
+	float: left;
+	padding: 0 30px;
+}
+.shadow {
+	text-shadow: none;
+}
+
+/* the styles for the navigation menu */
+nav {
+	display: none;
+}
+nav ul {
+	list-style: none;
+}
+nav ul li {
+	float: left;
+}
+nav ul li a {
+	text-align: center;
+	display: block;
+	width: 168px;
+	padding: 1em 0;
+	text-decoration: none;
+	background-color: #931420;
+	color: #fffded;
+	font-weight: bold;
+	border-right: 2px solid #fffded;
+}
+nav ul li a.lastitem {
+	width: 170px;
+	border-right: none;
+}
+nav ul li a.current {
+	color: yellow;
+}
+
+/* the styles for the main content */
+main {
+	clear: left;
+}
+
+/* the styles for the section */
+section {
+	width: 575px;
+	float: right;
+	padding: 0 20px 20px 20px;
+}
+section h1 {
+	font-size: 150%;
+	padding: .5em 0 .25em 0;
+	margin: 0;               /* If you remove this, the margins in normalize.css will be applied. */
+}
+section h2 {
+	color: black;
+}
+section p {
+	padding-bottom: .5em;
+}
+section blockquote {
+	padding: 0 2em;
+	font-style: italic;
+}
+section ul {
+	padding: 0 0 .25em 1.25em;
+}
+section li {
+	padding-bottom: .35em;
+}
+
+/* the styles for the article */
+article {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+article h2 {
+	padding-top: 0;
+}
+article h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+article img {
+	float: right;
+	margin: .5em 0 1em 1em;
+	border: 1px solid black;
+}
+
+/* the styles for the aside */
+aside {
+	width: 215px;
+	float: right;
+	padding: 0 0 20px 20px;
+}
+aside h2, aside h3 {
+	color: black;
+	padding-bottom: 1em;	
+}
+aside img {
+	display: none;
+}
+
+/* the styles for the footer */
+footer {
+	border-top: 2px solid black;
+	background-color: white;
+}
+footer p {
+	color: black;
+}

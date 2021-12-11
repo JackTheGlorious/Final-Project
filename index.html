@@ -1,0 +1,137 @@
+<!--Glorious Peripherals Site by Jonathan Golz-->
+<!--created on 12/4/21-->
+<!--For the ITEC-350/236 class at SIUC-->
+<!--I do not own any of the images or content. They are just used for demonstration purposes-->
+<!--last updated 12/10/21-->
+
+<!DOCTYPE html>
+
+    <head>
+        <!--Site Title and meta data-->
+        <meta charset="utf-8">
+        <title>Glorious Peripherals</title> 
+        <meta name="description" content="Your shop for the best gaming equipment"> <meta name="keywords" content="Glorious, Gaming, Periferals">
+
+        <!--call CSS-->
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/slicknav.css">
+    	<link rel="stylesheet" href="print.css" media="print">
+        <link rel="stylesheet" href="https://use.typekit.net/cmv6ljc.css">
+    </head>
+
+    <!-- Loads neccicary elements for slicknav menu -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Navigation Menu-->
+    <nav class="navlist"> 
+        <ul>
+            <li><a href="index.html" >Home</a></li> <!--list items-->
+            <li><a href="peripherals.html">Peripherals</a></li> 
+            <li><a href="software.html" >Software</a></li>
+            <li><a href="history.html" >History</a></li> 
+            <li><a href="contact.html" >Contact</a></li>
+        </ul> 
+    </nav> 
+
+    <!--Title and site intro-->
+    <body>
+        <h1>Welcome to Glorious Peripherals!</h1>
+        <sec class="flex">
+            <p>
+                We are Glorious Peripherals. Your one stop shop for THE best gear to level up your gaming. We custom make a variety of products, as well distribute software for our products and more.
+            </p>
+
+            <!--transitioning image-->
+            <aside>
+                <div id="cf">
+                    <img class="bottom" src="images/41-410687_stock-spice-orange-gamecube-controller-orange-gamecube-controller.png" />
+                    <img class="top" src="images/771px-GameCube_controller.png" />
+                </div>            </aside>
+        </sec>
+        <!--why us section-->
+        <h2>Why Us?</h2>
+        <!--text exmapanation-->
+        <p class="center">
+            All of our peripherals are 100% custom. Meaning you can customize the buttons, color, wrap, and more. We have a 100% satisfaction garuntee. Our dedicated support staff will help with all malfuntions and issues you may have. All order are handled personally and we update you step by step through the process. On top of all of this our products are 100% American made.
+        </p>
+
+        <!--Product examples-->
+        <sec class="flex">
+
+            <img class="examples" src="images/Vektor-Mouse-Thumb.png">
+
+            <aside>
+                <img class="examples" src="images/2-White-Matt-M.png">
+            </aside>
+
+            <aside>
+                <img class="examples" src="images/771px-GameCube_controller.png">
+            </aside>
+        </sec>
+
+        <!--why us comparrison table-->
+        <table style="width:100%">
+            <tr>
+                <th colspan="5">The Competition VS Glorious Peripherals</th>
+            </tr>
+            <tr>
+              <th>Company</th>
+              <th>Custom Wraps</th>
+              <th>RBG Integration</th>
+              <th>Nationwide Shipping</th>
+              <th>American Made</th>
+            </tr><!--each block of elements is a row-->
+            <tr>
+              <td>Glorious Peripherals</td>
+              <td>Y</td>
+              <td>Y</td>
+              <td>Y</td>
+              <td>Y</td>
+            </tr>
+            <tr>
+              <td>Games Plus</td>
+              <td>Y</td>
+              <td>N</td>
+              <td>Y</td>
+              <td>N</td>
+            </tr>
+            <tr>
+                <td>Controller Haven</td>
+                <td>N</td>
+                <td>N</td>
+                <td>Y</td>
+                <td>N</td>
+              </tr>
+              <tr>
+                <td>Premium Game</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>N</td>
+              </tr>
+              <tr>
+                <td>Life Up</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>N</td>
+                <td>Y</td>
+              </tr>
+
+          </table> 
+
+          <!--music upon entering site-->
+        <audio controls autoplay>
+            <source src="video0(1).mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio> 
+
+    </body>
+
+<!--code that makes the slicknav work-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="jquery.slicknav.js"></script>
+<script> $(".navlist").slicknav(); </script>
+<script> $('.slicknav_menu').prepend('<div class="logo"><img src="images/771px-GameCube_controller.png"/>Glorious Peripherals</div>');</script>
+<!--<script> $('figure').slicknav({prependTo:'#d1'});</script>-->
+
+</html>
