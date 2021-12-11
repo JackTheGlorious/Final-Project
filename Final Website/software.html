@@ -1,0 +1,91 @@
+<!--Glorious Peripherals Site by Jonathan Golz-->
+<!--created on 12/4/21-->
+<!--For the ITEC-350/236 class at SIUC-->
+<!--I do not own any of the images or content. They are just used for demonstration purposes-->
+<!--last updated 12/10/21-->
+
+<!DOCTYPE html>
+
+    <head>
+        <!--Site Title and meta data-->
+        <meta charset="utf-8">
+        <title>Glorious Peripherals</title> 
+        <meta name="description" content="Your shop for the best gaming equipment"> <meta name="keywords" content="Glorious, Gaming, Periferals">
+        
+        <!--call CSS-->
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/slicknav.css">
+        <link rel="stylesheet" href="https://use.typekit.net/cmv6ljc.css">
+
+    </head>
+
+    <!-- Loads neccicary elements for slicknav menu -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Navigation Menu-->
+    <nav class="navlist"> 
+        <ul>
+            <li><a href="index.html" >Home</a></li> <!--list items-->
+            <li><a href="peripherals.html">Peripherals</a></li> 
+            <li><a href="software.html" >Software</a></li>
+            <li><a href="history.html" >History</a></li> 
+            <li><a href="contact.html" >Contact</a></li>
+        </ul> 
+    </nav> 
+
+    <!--title and software sections-->
+    <body>
+        <h1 class="correct">DS4 Windows</h1>
+        <sec class="flex">
+
+            <!--product video-->
+            <video controls autoplay>
+                <source src="Y2Mate.is - How to PROPERLY Download and Setup DS4Windows-dwWAY67Qg5Q-144p-1639130463501.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>             
+
+            <!--features list-->
+            <aside>
+                <ul>
+                    <li><p>Connect any Controller to Windows</p></li>
+                    <li><p>Connect any controller to Linux</p></li>
+                    <li><p>Bypass turbo restrictions</p></li>
+                    <li><p>Emulate older controllers</p></li>
+                    <li><p>Bypass controller amount limits</p></li>       
+                </ul>
+            </aside>
+        </sec>
+        <!--more info-->
+        <p class="center">DS4 Windows is an open source software that gives accesability to multi-platform gamers. Allowing for any controller to be used in place of an xbox one. Helping gamers get past Windows's increasingly strick controller rules.</p>
+       
+        <h1 class="correct">Razer Synapse</h1>
+        <sec class="flex">
+
+            <video controls>
+                <source src="videoplayback.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>             
+
+            <aside>
+                <ul>
+                    <li><p>Customize the colors and lights of your devices</p></li>
+                    <li><p>Set patterns or tones</p></li>
+                    <li><p>Sync your devices together</p></li>
+                    <li><p>Sync your lights to music and more</p></li>
+                    <li><p>Edit the settings of select razer products</p></li>       
+                </ul>
+            </aside>
+        </sec>
+        <p class="center">Razer Synapse opens a whole new world for people that own RGB and razer products. Our mouse and fight stick are compatable with the product. If you own any rbg or razer product this is a must product.</p>
+    
+   
+    </body>
+
+<!--code that makes the slicknav work-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="jquery.slicknav.js"></script>
+<script> $(".navlist").slicknav(); </script>
+<script> $('.slicknav_menu').prepend('<div class="logo"><img src="images/771px-GameCube_controller.png"/>Glorious Peripherals</div>');</script>
+<!--<script> $('figure').slicknav({prependTo:'#d1'});</script>-->
+
+</html>
